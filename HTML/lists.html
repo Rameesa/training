@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lists in html</title>
+</head>
+<body>
+    
+   <form method="POST" action="mypage.html" name="registration">
+       <label>Firstname</label>
+       <input type="text" name="firstname" placeholder="fghj" >&nbsp;&nbsp;&nbsp;&nbsp;
+       <label>Last name</label>
+       <input type="text" name="lastname" size="20" maxlength="10">
+       <br><br>
+       <label>Email</label>
+       <input type="email" name="email" placeholder="eg; abc@gmail.com" pattern="" >
+       <br><br>
+       <label>Password</label>
+       <input type="password" name="pass">
+       <br><br>
+       <label>Gender</label>
+       <input type="radio" name="sex"><label>Male</label>
+       <input type="radio" name="sex"><label>Female</label>
+       <br><br>
+       <label>Technology</label>
+       <select name="tech" multiple size="3">
+           <option value="">Choose an option</option>
+           <option value="php" selected>PHP</option>
+           <option value="python">Python</option>
+           <option value="java">JAVA</option>
+           <option value="angular">Angular</option>
+       </select>
+       <label>Languages known</label>
+       <input type="checkbox" name="eng"><label>English</label>
+       <input type="checkbox" name="malayalm"><label>Malayalam</label>
+       <input type="checkbox" name="hindi"><label>Hindi</label>
+       <br><br>
+       <label>Upload photo</label>
+       <input type="url">
+
+       <input type="datetime-local">
+       <label>Address</label>
+       <textarea></textarea>
+       <input type="submit" value="SUBMIT">
+       <input type="reset" value="RESET">
+       <button type="submit">LOGIN</button>
+
+   </form>
+
+   <figure>
+       <img src="images/baabtra_bg.png">
+       <figcaption>Image 1</figcaption>
+   </figure>
+
+</body>
+</html>
